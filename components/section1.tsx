@@ -9,7 +9,7 @@ import swiperCore,{Autoplay} from 'swiper'
 
 export default function section1() {
   
-    swiperCore.use(Autoplay)
+    swiperCore.use([Autoplay])
 
   const bg={
     background: "url('/images/banner.png') no-repeat",
