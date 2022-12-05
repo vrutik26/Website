@@ -49,7 +49,7 @@ function Post1(){
     return(
         <div className="item">
             <div className="images">
-                <Link legacyBehavior href={"/"}><a><Image className="rounded" src={"/images/Project2.jpg"} width={500} height={350} alt={""} /></a></Link>
+                <Link legacyBehavior href={"/"}><a><Image className="rounded" src={"/images/Project2.jpeg"} width={500} height={350} alt={""} /></a></Link>
             </div>
             <div className="info flex justify-center flex-col py-4">
             <div className="cat">
@@ -73,7 +73,7 @@ function Post2(){
     return(
         <div className="item">
             <div className="images">
-                <Link legacyBehavior href={"/"}><a><Image className="rounded" src={"/images/Project2.jpg"} width={500} height={350} alt={""} /></a></Link>
+                <Link legacyBehavior href={"/"}><a><Image className="rounded" src={"/images/Project2.jpeg"} width={500} height={350} alt={""} /></a></Link>
             </div>
             <div className="info flex justify-center flex-col py-4">
             <div className="cat">
