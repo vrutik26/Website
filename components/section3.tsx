@@ -27,11 +27,11 @@ function Post(){
     return(
         <div className="grid">
             <div className="images pr-12">
-                <Link legacyBehavior href={"/"}><a><Image src={"/images/Swimming.jpeg"} width={600} height={500} alt={""} /></a></Link>
+                <Link legacyBehavior href={"https://pharmeasy.in/blog/14-health-benefits-of-swimming/"}><a target='_blank'><Image src={"/images/Swimming.jpeg"} width={600} height={500} alt={""} /></a></Link>
             </div>
             <div className="info flex justify-center flex-col py-4 pr-12">
             {/* <div className="cat"> */}
-                    <Link legacyBehavior href={"/"}><a className="text-orange-600 hover:text-orange-800">Swimming</a></Link>
+                    <Link legacyBehavior href={""}><a className="text-orange-600 hover:text-orange-800">Swimming</a></Link>
                     {/* <Link legacyBehavior href={"/"}><a className="text-gray-800 hover:text-gray-600">- July 3, 2022</a></Link>
                 </div> */}
                 <div className="title">
@@ -51,11 +51,11 @@ function Post1(){
     return(
         <div className="grid">
             <div className="images pr-12">
-                <Link legacyBehavior href={"/"}><a><Image src={"/images/Travelling.jpg"} width={600} height={500} alt={""} /></a></Link>
+                <Link legacyBehavior href={"https://www.holidify.com/collections/best-places-in-the-world"}><a target='_blank'><Image src={"/images/Travelling.jpg"} width={600} height={500} alt={""} /></a></Link>
             </div>
             <div className="info flex justify-center flex-col py-4 pr-12">
             {/* <div className="cat"> */}
-                    <Link legacyBehavior href={"/"}><a className="text-orange-600 hover:text-orange-800">Travelling</a></Link>
+                    <Link legacyBehavior href={""}><a className="text-orange-600 hover:text-orange-800">Travelling</a></Link>
                     {/* <Link legacyBehavior href={"/"}><a className="text-gray-800 hover:text-gray-600">- July 3, 2022</a></Link>
                 </div> */}
                 <div className="title">

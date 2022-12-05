@@ -22,7 +22,7 @@ const section0 = () => {
                         <Link legacyBehavior href={"/"}><a className="text-orange-600 hover:text-orange-800">Business, Travel</a></Link>
                         <Link legacyBehavior href={"/"}><a className="text-gray-800 hover:text-gray-600">- July 3, 2022</a></Link>
                     </div> */}
-                    <div className="title">
+                    <div className="title ">
                         <Link legacyBehavior href={"/"}><a className="text-3xl md:text-6xl  font-bold text-gray-800 hover:text-gray-600">VRUTIK PRAJAPATI</a></Link>
                         <p><Link legacyBehavior href={"/"}><a className="text-3xl md:text-6xl font-thin text-gray-600 animate-fade-in-down">I &apos;M DEVELOPER</a></Link></p>
                          <Link target="_blank" href={"https://drive.google.com/file/d/1N7xdxcsdcuUI-ezqpXf5H_WJ6IQ_0PrW/view?usp=share_link"}><button className ="mt-10 ml-10 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">

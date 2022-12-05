@@ -7,15 +7,15 @@ const section4 = () => {
        <section className="container mx-auto md:px-20 py-16">
             <div className="grid lg:grid-cols-2">
                 <div className="item">
-                    <h1 className="font-bold text-4xl py-12">Business</h1>
+                    <h1 className="font-bold text-4xl py-12">POSITIONS</h1>
                     <div className="flex flex-col gap-6">
                     {Post()}
-                    {Post()}
-                    {Post()}
+                    {Post1()}
+                    {Post2()}
                     </div>
                 </div>
                 <div className="item">
-                <h1 className="font-bold text-4xl py-12">Travel</h1>
+                <h1 className="font-bold text-4xl py-12">ACHIEVEMENTS</h1>
                     <div className="flex flex-col gap-6">
                     {Post()}
                     {Post()}
@@ -34,18 +34,63 @@ function Post(){
         <div className="flex gap-5">
             <div className="image flex flex-col justify-start">
             <Link legacyBehavior href={"/"}><a><Image 
-            className="rounded" src={"/images/img1.jpg"} width={300} height={250} alt={""} /></a></Link>
+            className="rounded" src={"/images/Position1.jpeg"} width={300} height={250} alt={""} /></a></Link>
             </div>
             <div className="info flex flex-col justify-center">
             <div className="cat">
-                    <Link legacyBehavior href={"/"}><a className="text-orange-600 hover:text-orange-800">Business, Travel</a></Link>
-                    <Link legacyBehavior href={"/"}><a className="text-gray-800 hover:text-gray-600">- July 3, 2022</a></Link>
+                    <Link legacyBehavior href={"/"}><a className="text-orange-600 hover:text-orange-800">Member</a></Link>
+                    <Link legacyBehavior href={"/"}><a className="text-gray-800 hover:text-gray-600">- Nov 1, 2021</a></Link>
                 </div>
 
                 <div className="title">
-                    <Link legacyBehavior href={"/"}><a className="text-xl font-bold text-gray-800 hover:text-gray-600">Your most unhappy customers are your greatest source of learning</a></Link>
+                    <Link legacyBehavior href={"/"}><a className="text-xl font-bold text-gray-800 hover:text-gray-600">Student Placement Cell, RRU</a></Link>
                 </div>
-                <Author></Author>
+                {/* <Author></Author> */}
+            </div>
+        </div>
+    )
+}
+
+
+function Post1(){
+    return(
+        <div className="flex gap-5">
+            <div className="image flex flex-col justify-start">
+            <Link legacyBehavior href={"/"}><a><Image 
+            className="rounded" src={"/images/Position2.jpeg"} width={300} height={250} alt={""} /></a></Link>
+            </div>
+            <div className="info flex flex-col justify-center">
+            <div className="cat">
+                    <Link legacyBehavior href={"/"}><a className="text-orange-600 hover:text-orange-800">Member</a></Link>
+                    <Link legacyBehavior href={"/"}><a className="text-gray-800 hover:text-gray-600">- March 1, 2022</a></Link>
+                </div>
+
+                <div className="title">
+                    <Link legacyBehavior href={"/"}><a className="text-xl font-bold text-gray-800 hover:text-gray-600">Volunteer Teaching In Village, Surat</a></Link>
+                </div>
+                {/* <Author></Author> */}
+            </div>
+        </div>
+    )
+}
+
+function Post2(){
+    return(
+        <div className="flex gap-5">
+            <div className="image flex flex-col justify-start">
+            <Link legacyBehavior href={"/"}><a><Image 
+            className="rounded" src={"/images/Position3.jpg"} width={300} height={250} alt={""} /></a></Link>
+            </div>
+            <div className="info flex flex-col justify-center">
+            <div className="cat">
+                    <Link legacyBehavior href={"/"}><a className="text-orange-600 hover:text-orange-800">Leader-</a></Link>
+                    <Link legacyBehavior href={"/"}><a className="text-gray-800 hover:text-gray-600">Aug 1, 2019</a></Link>
+                </div>
+
+                <div className="title">
+                    <Link legacyBehavior href={"/"}><a className="text-xl font-bold text-gray-800 hover:text-gray-600">Class Representative , RRU</a></Link>
+                </div>
+                {/* <Author></Author> */}
             </div>
         </div>
     )
