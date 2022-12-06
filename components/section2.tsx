@@ -12,7 +12,7 @@ const section2 = () => {
             <div className="grid md:grid-col-2 lg:grid-cols-3 gap-14">
                 {Post()}
                 {Post1()}
-                {Post2()}
+                {/* {Post2()} */}
     
             </div>
 

@@ -18,8 +18,8 @@ const section4 = () => {
                 <h1 className="font-bold text-4xl py-12">ACHIEVEMENTS</h1>
                     <div className="flex flex-col gap-6">
                     {Post3()}
-                    {Post()}
-                    {Post()}
+                    {/* {Post()}
+                    {Post()} */}
                     </div>
                 </div>
             </div>
