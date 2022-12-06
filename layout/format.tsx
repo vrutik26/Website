@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 
-const format = ({children}) => {
+const format = ({children}:any) => {
     return ( 
 <>
             <Head>
