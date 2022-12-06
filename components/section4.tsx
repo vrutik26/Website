@@ -17,7 +17,7 @@ const section4 = () => {
                 <div className="item">
                 <h1 className="font-bold text-4xl py-12">ACHIEVEMENTS</h1>
                     <div className="flex flex-col gap-6">
-                    {Post()}
+                    {Post3()}
                     {Post()}
                     {Post()}
                     </div>
@@ -89,6 +89,29 @@ function Post2(){
 
                 <div className="title">
                     <Link legacyBehavior href={"/"}><a className="text-xl font-bold text-gray-800 hover:text-gray-600">Class Representative , RRU</a></Link>
+                </div>
+                {/* <Author></Author> */}
+            </div>
+        </div>
+    )
+}
+
+
+function Post3(){
+    return(
+        <div className="flex gap-5">
+            <div className="image flex flex-col justify-start">
+            <Link legacyBehavior href={"https://courses.cognitiveclass.ai/certificates/7db75171d6694956906c2ee501592eeb"}><a target='_blank'><Image 
+            className="rounded" src={"/images/Achivement1.png"} width={300} height={250} alt={""} /></a></Link>
+            </div>
+            <div className="info flex flex-col justify-center">
+            <div className="cat">
+                    {/* <Link legacyBehavior href={"/"}><a className="text-orange-600 hover:text-orange-800">Member</a></Link> */}
+                    <Link legacyBehavior href={"/"}><a className="text-gray-800 hover:text-gray-600">January 11, 2022</a></Link>
+                </div>
+
+                <div className="title">
+                    <Link legacyBehavior href={"https://courses.cognitiveclass.ai/certificates/7db75171d6694956906c2ee501592eeb"}><a target='_blank' className="text-xl font-bold text-gray-800 hover:text-gray-600">Python 101 for Data Science</a></Link>
                 </div>
                 {/* <Author></Author> */}
             </div>
